@@ -1,0 +1,8 @@
+.content {
+  display: flex;
+  position: relative;
+
+  @media only screen and (max-width: $tab-port) {
+    flex-direction: column;
+  }
+}
