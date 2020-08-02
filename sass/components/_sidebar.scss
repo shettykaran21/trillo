@@ -73,6 +73,11 @@
       @media only screen and (max-width: $tab-port) {
         justify-content: center;
       }
+
+      @media only screen and (max-width: $phone) {
+        flex-direction: column;
+        text-align: center;
+      }
     }
   }
 
@@ -80,6 +85,11 @@
     font-size: 1.75rem;
     color: currentColor;
     margin-right: 2rem;
+
+    @media only screen and (max-width: $phone) {
+      margin-bottom: 0.5rem;
+      margin-right: 0;
+    }
   }
 }
 
